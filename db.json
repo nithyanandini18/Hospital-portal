@@ -1,0 +1,191 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Ananya Rao",
+      "specialization": "Cardiology",
+      "experience": 14,
+      "phone": "9848012345",
+      "email": "ananya.rao@lotuscare.in",
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Dr. Rohan Mehta",
+      "specialization": "Orthopedics",
+      "experience": 9,
+      "phone": "9848023456",
+      "email": "rohan.mehta@lotuscare.in",
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Dr. Priya Nair",
+      "specialization": "Pediatrics",
+      "experience": 11,
+      "phone": "9848034567",
+      "email": "priya.nair@lotuscare.in",
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Dr. Suresh Kumar",
+      "specialization": "Dermatology",
+      "experience": 7,
+      "phone": "9848045678",
+      "email": "suresh.kumar@lotuscare.in",
+      "available": false
+    },
+    {
+      "id": 5,
+      "name": "Dr. Farah Khan",
+      "specialization": "Neurology",
+      "experience": 16,
+      "phone": "9848056789",
+      "email": "farah.khan@lotuscare.in",
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "Dr. Meera Iyer",
+      "specialization": "ENT",
+      "experience": 6,
+      "phone": "9848067890",
+      "email": "meera.iyer@lotuscare.in",
+      "available": false
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "name": "Kiran Babu",
+      "age": 42,
+      "gender": "Male",
+      "phone": "9700011122",
+      "email": "kiran.babu@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Lakshmi Devi",
+      "age": 58,
+      "gender": "Female",
+      "phone": "9700022233",
+      "email": "lakshmi.devi@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Arjun Varma",
+      "age": 8,
+      "gender": "Male",
+      "phone": "9700033344",
+      "email": "varma.family@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Sneha Reddy",
+      "age": 29,
+      "gender": "Female",
+      "phone": "9700044455",
+      "email": "sneha.reddy@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Mohammed Imran",
+      "age": 35,
+      "gender": "Male",
+      "phone": "9700055566",
+      "email": "imran.m@example.com"
+    },
+    {
+      "id": 6,
+      "name": "Divya Prasad",
+      "age": 47,
+      "gender": "Female",
+      "phone": "9700066677",
+      "email": "divya.prasad@example.com"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "patientId": "1",
+      "doctorId": "1",
+      "date": "2026-10-28",
+      "time": "10:00",
+      "reason": "Chest pain follow-up",
+      "status": "Completed"
+    },
+    {
+      "id": 2,
+      "patientId": "2",
+      "doctorId": "5",
+      "date": "2026-10-30",
+      "time": "09:30",
+      "reason": "Recurring migraines",
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "patientId": "3",
+      "doctorId": "3",
+      "date": "2026-10-30",
+      "time": "11:00",
+      "reason": "Fever for three days",
+      "status": "Booked"
+    },
+    {
+      "id": 4,
+      "patientId": "4",
+      "doctorId": "2",
+      "date": "2026-10-30",
+      "time": "15:30",
+      "reason": "Knee pain after a fall",
+      "status": "Cancelled"
+    },
+    {
+      "id": 5,
+      "patientId": "5",
+      "doctorId": "1",
+      "date": "2026-10-31",
+      "time": "10:30",
+      "reason": "Routine heart check-up",
+      "status": "Booked"
+    },
+    {
+      "id": 6,
+      "patientId": "6",
+      "doctorId": "2",
+      "date": "2026-11-02",
+      "time": "12:00",
+      "reason": "Shoulder stiffness",
+      "status": "Confirmed"
+    },
+    {
+      "id": 7,
+      "patientId": "1",
+      "doctorId": "5",
+      "date": "2026-11-03",
+      "time": "14:00",
+      "reason": "Dizziness and headaches",
+      "status": "Booked"
+    },
+    {
+      "id": 8,
+      "patientId": "2",
+      "doctorId": "3",
+      "date": "2026-11-04",
+      "time": "16:00",
+      "reason": "Vaccination query for grandson",
+      "status": "Booked"
+    },
+    {
+      "patientId": "4",
+      "doctorId": "1",
+      "date": "2026-11-10",
+      "time": "05:30",
+      "reason": "jhgfdsadfghjm,m./",
+      "status": "Booked",
+      "id": 9
+    }
+  ]
+}
